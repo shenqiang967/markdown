@@ -92,8 +92,6 @@ Java 5.0引入了枚举，枚举限制变量只能是预先设定好的值。使
 
 例如，我们为果汁店设计一个程序，它将限制果汁为小杯、中杯、大杯。这就意味着它不允许顾客点除了这三种尺寸外的果汁。
 
-### 实例
-
 ```java
 class FreshJuice {
    enum FreshJuiceSize{ SMALL, MEDIUM , LARGE }
